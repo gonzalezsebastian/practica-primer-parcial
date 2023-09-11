@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+:root{
+    --fondoheader: #fbfafb;
+    --textcolor: #2a2a2a;
+    --azul: #03a4ed;
+    --rojo: #fe3f40;
+    --blanco: #fffefe;
+    --negro: #474746
+}
+
+html body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--blanco);
+    color: var(--textcolor);
+}
+
+html body .rojo{
+    color: var(--rojo);
+}
+
+html body .azul{
+    color: var(--azul)
+}
+
+html body .blanco{
+    color: var(--blanco);
+}
+
+html body header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+    font-size: 16px;
+    background-color: var(--fondoheader);
+    color: var(--textcolor);
+}
+
+html body header .titulo{
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+html body header .menu nav .link{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+html body header .menu nav button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+html body .primera .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+html body .primera .contenedor .informacion{
+    display: flex;
+    align-items: center;
+}
+
+html body .primera .contenedor .informacion .texto{
+    width: 470px;
+    height: 300px;
+    margin-right: 100px;
+    letter-spacing: 0.25px;
+}
+
+html body .primera .contenedor .informacion .texto .titulo{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+html body .primera .contenedor .informacion .texto .mensaje{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+html body .primera .contenedor .informacion .texto .descripcion{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+html body .primera .contenedor .informacion .buscador{
+    background-color: var(--azul);
+    width: 470px;
+    height: 66px;
+    padding: 0 25px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 33px;
+    margin-top: 30px;
+}
+
+html body .primera .contenedor .informacion .buscador input{
+    background-color: var(--azul);
+    border: none;
+}
+
+html body .primera .contenedor .informacion .buscador input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: var(--blanco);
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+}
+
+html body .primera .contenedor .informacion .buscador button{
+    background-color: #fff;
+    color: var(--rojo);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 0.25px;
+    padding: 12px 25px;
+}
+
+html body .segunda .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+html body .segunda .contenedor .imagen{
+    height: 100%;
+    margin: 220px 75px 75px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body .segunda .contenedor .informacion .fila{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+html body .segunda .contenedor .informacion .fila .imagen{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body .segunda .contenedor .informacion .fila .texto{
+    width: 35%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html body .segunda .contenedor .informacion .fila .texto h1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+html body footer .contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
