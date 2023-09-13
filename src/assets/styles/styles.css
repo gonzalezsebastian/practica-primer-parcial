@@ -183,10 +183,103 @@ html body .segunda .contenedor .informacion .fila .texto h1{
     margin-bottom: 15px;
 }
 
+html body .tercera .contenedor{
+    display: flex;
+    justify-content: center;
+    background-image: url(/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+
+html body .tercera .contenedor .informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html body .tercera .contenedor .informacion h1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+html body .tercera .contenedor .informacion p{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+html body .tercera .contenedor .informacion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+html body .tercera .contenedor .formulario {
+    display: flex;
+    align-items: center;
+}
+
+html body .tercera .contenedor .formulario form{
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    padding: 50px 15px;
+    border-radius: 30px;
+}
+
+html body .tercera .contenedor .formulario form .fila{
+    display: flex;
+    flex-direction: row;
+}
+
+html body .tercera .contenedor .formulario form .fila .name{
+    margin-right: 10px;
+}
+
+html body .tercera .contenedor .formulario form input{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    background-color: #D1F3FF;
+    color: #2a2a2a;
+    border-radius: 30px;
+}
+
+html body .tercera .contenedor .formulario form .email{
+    margin: 15px 0;
+}
+
+html body .tercera .contenedor .formulario form .message{
+    padding-bottom: 100px;
+    margin-bottom: 15px;
+}
+
+html body .tercera .contenedor .formulario form button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    height: 40px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    background-color: var(--azul);
+    color: var(--blanco);
+    cursor: pointer;
+}
+
 html body footer .contenedor{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin: 50px 0;
 }
